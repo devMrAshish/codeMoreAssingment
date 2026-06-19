@@ -17,6 +17,7 @@ g++ src/pointer_basics.cpp -o pointer_basics
 # Execute
 ./pointer_basics
 ```
+### array_poinetrs.cpp
 ```bash 
 # Compile
 g++ src/array_pointers.cpp -o array_pointer 
