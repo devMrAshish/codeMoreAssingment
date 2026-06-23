@@ -1,0 +1,11 @@
+Gitignore
+# Executables
+*.exe
+*.out
+
+#Object Files
+*.o
+*.obj
+
+# VS Code 
+.vscode/

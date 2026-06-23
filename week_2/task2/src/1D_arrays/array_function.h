@@ -1,0 +1,10 @@
+void inputArray(int arr[],int size);
+void printArray(int arr[],int size);
+int sumArray(int arr[],int size);
+int findLargest(int arr[],int size);
+int findSmallest(int arr[],int size);
+int searchElement(int arr[],int size,int key);
+void reverseArray(int arr[],int size);
+int countEven(int arr[],int size);
+int countOdd(int arr[],int size);
+void swap(int& a, int& b);
