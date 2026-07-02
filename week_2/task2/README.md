@@ -1,9 +1,9 @@
 Array and String Operations in C++
-
-A C++ assignment demonstrating various array and string operations using user-defined functions, header files, and modular programming.
 ---
-Features
+A C++ assignment demonstrating various array and string operations using user-defined functions, header files, and modular programming.
 
+Features
+---
 Array Operations
 
 - Input Array
@@ -15,7 +15,7 @@ Array Operations
 - Reverse an Array
 - Count Even Numbers
 - Count Odd Numbers
----
+
 String Operations
 
 - Find String Length
@@ -24,9 +24,9 @@ String Operations
 - Count Consonants
 - Reverse a String
 - Compare Two Strings
----
-Concepts Used
 
+Concepts Used
+---
 - Functions
 - Header Files
 - Arrays
@@ -35,7 +35,7 @@ Concepts Used
 - Loops
 - Conditional Statements
 - Modular Programming
----
+
 Project Structure
 ---
 .
@@ -46,12 +46,12 @@ Project Structure
 ├── string_function.cpp
 ├── explanation.md
 └── screenshots
----
 Sample Output
+---
 
 Array Operations
-
-Enter 5 elements:
+---
+Enter the elements:
 10 20 30 40 50
 
 Array: 10 20 30 40 50
@@ -62,14 +62,14 @@ Smallest = 10
 Even Count = 5
 Odd Count = 0
 
-Enter element to search: 30
+Enter key to search: 30
 Found at index 2
 
 Reversed Array:
 50 40 30 20 10
 
 String Operations
-
+---
 Enter a string: Programming
 
 Length      : 11
@@ -78,9 +78,9 @@ Consonants  : 8
 
 Reversed String:
 gnimmargorP
----
-How to Compile
 
+How to Compile
+---
 Using g++:
 
 g++ main.cpp array_function.cpp string_function.cpp -o program
@@ -88,9 +88,9 @@ g++ main.cpp array_function.cpp string_function.cpp -o program
 Run:
 
 ./program
----
-Author
 
+Author
+---
 Ashish Kumar
 
 B.Tech CSE, Chaibasa Engineering College
