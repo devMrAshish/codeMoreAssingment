@@ -1,0 +1,32 @@
+# Concept Explanation — Introduction to Classes and Objects
+
+This document explains the OOP concepts demonstrated in `classes_and_objects.cpp`.
+
+## 1. What is a Class?
+A **class** is a blueprint for creating objects. It defines what data (attributes) an object will hold and what actions (methods) it can perform, without actually being an object itself.
+
+In the program, `Rectangle` is a class that describes any rectangle in terms of `width` and `height`, plus methods to work with those values.
+
+## 2. What is an Object?
+An **object** is a real instance created from a class. Each object gets its own copy of the class's data.
+
+In `main()`, `rect1` and `rect2` are two separate `Rectangle` objects. Changing `rect1`'s width has no effect on `rect2`, because each object manages its own independent state.
+
+## 3. Constructors
+The `Rectangle(double w, double h)` constructor runs automatically whenever a new `Rectangle` object is created, setting its initial `width` and `height` in one step (e.g., `Rectangle rect1(5.0, 3.0);`).
+
+## 4. Encapsulation
+**Encapsulation** is the practice of keeping an object's internal data private and only allowing it to be accessed or changed through defined public methods.
+
+In `Rectangle`:
+- `width` and `height` are declared `private`, so code outside the class cannot access them directly (e.g., `rect1.width = 10;` would not compile).
+- Public methods `setWidth()` and `setHeight()` are the only way to change these values, and they include basic validation (rejecting non-positive numbers).
+- Public methods `getArea()`, `getPerimeter()`, and `displayInfo()` provide controlled ways to read or use the object's data.
+
+## 5. Why This Matters
+Grouping related data and behavior into a class, and hiding the internal details behind clear methods, makes code:
+- **Safer** — invalid data (like a negative height) can be caught and rejected inside the class itself
+- **Easier to maintain** — the internal implementation of `Rectangle` can change without breaking code that uses it, as long as the public methods stay the same
+- **Reusable** — the same `Rectangle` class can be used to create as many independent rectangle objects as needed
+
+This is the foundation that larger, more complex object-oriented C++ programs are built on.
